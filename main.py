@@ -27,7 +27,6 @@ while True:
             "trained by OpenAI. Answer as concisely as possible. Knowledge cutoff: "
              f"2021 Current date: {str(datetime.datetime.now()).split(' ')[0]}"
         })
-        # create()
         continue
     
     msg = input("You>> ")
